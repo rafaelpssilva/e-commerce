@@ -1,0 +1,150 @@
+<div class="produto">
+                <a href="#"><img src="img/xbox/xbox-series-x-vertical.png" alt="Xbox-Series-X-Preto"></a>
+                <div class="descricao">
+                    <span class="nome-produto">Xbox Series X 1tb - Preto</span>
+                    <span class="preco-final">RS 7.499,99</span> 
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 12x de R$ 624,99 sem juros no cartão <br>
+                        Ver mais opções de pagamento
+                    </p>
+                </div>
+            </div>
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-series-s-vertical.png" alt="Xbox-Series-S-Branco"></a>
+                <div class="descricao">
+                    <span class="nome-produto">Xbox Series S 512GB - Branco </span>
+                    <span class="preco-final">R$ 2.799,90</span>
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 12x de R$ 245,60 sem juros no cartão <br>
+                        Ou em 1x no cartão com até 5% OFF <br>
+                        Ver mais opções de pagamento
+                    </p>
+                </div>
+            </div>
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-one-x-horizontal.jpeg" alt="Xbox-One-X-Preto"></a>
+                <div class="descricao">
+                    <p>
+                        <span class="nome-produto">Console Xbox One X 1Tb - Preto </span>
+                        <span class="preco-final">R$ 3.500,97</span>
+                    </p>
+                </div>
+                <div class="esconder">
+                    <p>
+                        ou até 10x de R$350,10 sem juros no cartão <br>
+                        Ver mais opcões de pagamento
+                    </p>
+                </div>
+            </div>
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-one-s-vertical.png" alt="Xbox-One-S-Branco"></a>
+                <div class="descricao">
+                    <p>
+                        Xbox One S 1TB - Branco 
+                        <span class="preco-final">R$6.642,37</span>
+                    </p>
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 10x R$ 664,30 sem juros no cartão <br>
+                        Ver mais opcões de pagamento
+                    </p>
+                </div>
+            </div>
+
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-controle-series-x-fente.jpg" alt="controle-series-x-s-carbon-black"></a>
+                <div class="descricao">
+                    <p>
+                        Controle Xbox Series X|S Wirelles - Carbon Black 
+                        <span class="preco-final">R$579,00</span>
+                    </p>
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 10x R$ 57,90 sem juros no cartão <br>
+                        Ver mais opcões de pagamento
+                    </p>
+                </div>
+            </div>
+           
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-controle-one-elite-frente.webp" alt="Controle-Xbox-One-Elite-Series-2-Wireless""></a>
+                <div class="descricao">
+                    <p>
+                        Controle Xbox One Elite Series 2 Wireless - Preto 
+                        <span class="preco-final">R$1.786,80</span>
+                    </p>
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 10x R$ 178,68 sem juros no cartão <br>
+                        Ver mais opções de pagamento
+                    </p>
+                </div>
+            </div>
+           
+            <div class="produto">
+                <a href="#"><img src="img/xbox/xbox-headset-sem-fio.jpg" alt="controle-series-x"></a>
+                <div class="descricao">
+                    <p>
+                        Headset Xbox Wireless - Preto / Verde 
+                        <span class="preco-final">R$1.019,00</span>
+                    </p>
+                </div>
+                <div class="esconder">
+                    <p>
+                        Em até 10x R$ 101,90 sem juros no cartão
+                        Ver mais opcões de pagamento
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class="produto">
+                <a href="#"><img src="img/xbox/jogos-assassin's-creed-rogue-remastered.jpg" alt="controle-series-x"></a>
+                <p>
+                    Headset Xbox - Sem fio
+                    R$1.019,00
+                </p>
+                <p class="esconder">
+                    Em até 10x R$ 101,90 sem juros Ver parcelas disponíveis 
+                </p>
+            </div>
+
+            <div class="produto">
+                <a href="#"><img src="img/xbox/jogos-marvel-vs-capcom.jpg" alt="controle-series-x"></a>
+                <p>
+                    R$ 34.20 <br>
+                    6x R$ 5,7 sem juros
+                </p>
+                <p class="esconder">
+                    Xbox Series X
+                </p>
+            </div>
+
+            <div class="produto">
+                <a href="#"><img src="img/xbox/jogos-ori-and-the-blind-forest.jpg" alt="controle-series-x"></a>
+                <p>
+                    R$ 34.20 <br>
+                    6x R$ 5,7 sem juros
+                </p>
+                <p class="esconder">
+                    Xbox Series X
+                </p>
+            </div>
+
+            <div class="produto">
+                <a href="#"><img src="img/xbox/jogos-titanfall-2.jpg" alt="controle-series-x"></a>
+                <p>
+                    R$ 34.20 <br>
+                    6x R$ 5,7 sem juros
+                </p>
+                <p class="esconder">
+                    Xbox Series X
+                </p>
+            </div> -->
+            
