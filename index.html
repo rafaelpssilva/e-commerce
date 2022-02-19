@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="games5.0.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="games5.1.css">
+    <title>Refatorado</title>
 </head>
 <body>
-    <div class="estrutura">
+    <div class="structure">
         <header class="header">
-            <a href="#" class="title">
+            <a href="#" class="header-title">
                 R4 ELETRO
             </a>
             <nav>
@@ -22,10 +22,11 @@
                 <a href="#" id="menu"><img src="img/icones/menu_icon_152806 (1).png" alt="menu"></a>
             </nav>
         </header>
+
         <div class="header-legend">
             <ul>
-                <li><a href="">Categorias</a></li>
-                <li><a href="">Mais vendidos</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Mais vendidos</a></li>
                 <li><a href="#">Cupons</a></li>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Seja um revendedor</a></li>
@@ -53,93 +54,92 @@
 
             <!-- Consoles -->
 
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-series-x-vertical.png" alt="Xbox Series X Preto"></a>
-                <span class="nome-produto">Xbox Series X - Preto</span>
-                <span class="preco-sem-desconto">R$ 8190</span>
-                <span class="preco-com-desconto">R$ 7.499,99</span>
+                <span class="product-name">Xbox Series X - Preto</span>
+                <span class="price-without-discount">R$ 8190</span>
+                <span class="discount-price">R$ 7.499,99</span>
             </div>
-            <div class="produto">
-                <a href="#"><img src="img/xbox/xbox-one-s-vertical.png" alt="Xbox Series S Branco"></a>
-                <span class="nome-produto">Xbox Series S 512GB - Branco</span>
-                <span class="preco-com-desconto">R$ 2.799,90</span>
+            <div class="product">
+                <a href="#"><img src="img/xbox/xbox-series-s-vertical.png" alt="Xbox Series S Branco"></a>
+                <span class="product-name">Xbox Series S 512GB - Branco</span>
+                <span class="discount-price">R$ 2.799,90</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-one-x-horizontal.jpeg" alt="Xbox One X Preto"></a>
-                <span class="nome-produto">Console Xbox One X 1TB - Preto</span>
-                <span class="preco-sem-desconto">R$ 3.799,00</span>
-                <span class="preco-com-desconto">R$ 3.500,97</span>
+                <span class="product-name">Console Xbox One X 1TB - Preto</span>
+                <span class="price-without-discount">R$ 3.799,00</span>
+                <span class="discount-price">R$ 3.500,97</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-one-s-vertical.png" alt="Xbox One S Branco"></a>
-                <span class="nome-produto">Xbox One S 1TB - Branco</span>
-                <span class="preco-sem-desconto">R$ 2.799,00</span>
-                <span class="preco-com-desconto">R$ 2.200,00</span>
+                <span class="product-name">Xbox One S 1TB - Branco</span>
+                <span class="price-without-discount">R$ 2.799,00</span>
+                <span class="discount-price">R$ 2.200,00</span>
             </div> 
 
             <!-- Acessorios -->
 
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-controle-series-x-fente.jpg" alt="Controle Series x / S Carbon Black" style="padding: 30px;"></a>
-                <span class="nome-produto">Controle Xbox Series X|S Wirelles - Carbon Black</span>
-                <span class="preco-com-desconto">R$ 579,00</span>
+                <span class="product-name">Controle Xbox Series X|S Wirelles - Carbon Black</span>
+                <span class="discount-price">R$ 579,00</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-controle-one-elite-frente.webp" alt="Controle Series X" style="padding: 30px;"></a>
-                <span class="nome-produto">Controle Xbox One Elite Series 2 Wirelles - Preto</span>
-                <span class="preco-com-desconto">R$ 1.786,80</span>
+                <span class="product-name">Controle Xbox One Elite Series 2 Wirelles - Preto</span>
+                <span class="discount-price">R$ 1.786,80</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/xbox-headset-sem-fio.jpg" alt="Headset Sem Fio"></a>
-                <span class="nome-produto">Headset Xbox Wireless - Preto / Verde</span>
-                <span class="preco-sem-desconto">R$ 1350,00</span>
-                <span class="preco-com-desconto">R$ 1.019,00</span>
+                <span class="product-name">Headset Xbox Wireless - Preto / Verde</span>
+                <span class="price-without-discount">R$ 1350,00</span>
+                <span class="discount-price">R$ 1.019,00</span>
             </div>
 
             <!-- Jogos -->
 
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/Fifa 22 - Xbox One.jpg" alt="Fifa 22" class="img-jogos"></a>
-                <span class="nome-produto">Fifa 22 - Xbox One</span>
-                <span class="preco-sem-desconto">R$ 299,90</span>
-                <span class="preco-com-desconto">R$ 229,99</span>
+                <span class="product-name">Fifa 22 - Xbox One</span>
+                <span class="price-without-discount">R$ 299,90</span>
+                <span class="discount-price">R$ 229,99</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/NBA 2K21 - Xbox One.jpg" alt="NBA 2K21" class="img-jogos"></a>
-                <span class="nome-produto">NBA 2K21 - Xbox One</span>
-                <span class="preco-com-desconto">R$ 271,32</span>
+                <span class="product-name">NBA 2K21 - Xbox One</span>
+                <span class="discount-price">R$ 271,32</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/Injustice 2 Legendary - Xbox One.jpg" alt="Injustice 2 Legendary" class="img-jogos"></a>
-                <span class="nome-produto">Injustice 2 Legendary - Xbox One</span>
-                <span class="preco-sem-desconto">R$ 199,90</span>
-                <span class="preco-com-desconto">R$ 79,10</span>
+                <span class="product-name">Injustice 2 Legendary - Xbox One</span>
+                <span class="price-without-discount">R$ 199,90</span>
+                <span class="discount-price">R$ 79,10</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/Minecraft Dungeons Hero Edition - Xbox One.jpg" alt="Minecraft Dungeons Hero Edition" class="img-jogos"></a>
-                <span class="nome-produto">Minecraft Dungeons Hero Edition - Xbox One</span>
-                <span class="preco-com-desconto">R$ 49,90</span>
+                <span class="product-name">Minecraft Dungeons Hero Edition - Xbox One</span>
+                <span class="discount-price">R$ 49,90</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/Hitman IIi - Xbox One.jpg" alt="Hitman III" class="img-jogos"></a>
-                <span class="nome-produto">Hitman III 3 - Xbox One / Series X</span>
-                <span class="preco-com-desconto">R$ 263,03</span>
+                <span class="product-name">Hitman III 3 - Xbox One / Series X</span>
+                <span class="discount-price">R$ 263,03</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/jogos-ori-and-the-blind-forest.jpg" alt="Ori" class="img-jogos"></a>
-                <span class="nome-produto">Ori and the Blind Forest: Definitive Edition - Xbox One</span>
-                <span class="preco-com-desconto">R$ 292,74</span>
+                <span class="product-name">Ori and the Blind Forest: Definitive Edition - Xbox One</span>
+                <span class="discount-price">R$ 292,74</span>
             </div>
-            <div class="produto">
+            <div class="product">
                 <a href="#"><img src="img/xbox/jogos/jogos-titanfall-2.jpg" alt="titanfall 2" class="img-jogos"></a>
-                <span class="nome-produto">Titanfall 2 - Xbox One</span>
-                <span class="preco-com-desconto">R$ 98,90</span>
+                <span class="product-name">Titanfall 2 - Xbox One</span>
+                <span class="discount-price">R$ 98,90</span>
             </div>
         </main>
 
-        <aside class="package">
-            <div class="box-signature">
-                <h1 class="z">Confira nossos planos e ganhe beneficios exclusivos</h1>
+        <aside class="subscription-packages">
+                <h1 class="signature-title">Confira nossos planos e ganhe beneficios exclusivos</h1>
                 <div class="middle-plane">
                     <h1>Plano Pro</h1>
                     <span class="price">R$ 99,34 / mês</span>
@@ -168,6 +168,7 @@
                     <a href="#" class="btn">assinar</a>
                     <span class="recommended"><span>Recomendado</span></span>
                 </div>
+
                 <div class="low-plane">
                     <h1>Plano Amador</h1>
                     <span class="price">R$ 99,34 / mês</span>
@@ -192,16 +193,7 @@
             <div>
                 <a href="#"><img src="img/anuncios/anuncio-nestle.jpg" alt="Anuncio Nestle"></a>
             </div>
-            <!-- <div>
-                <a href="#"><img src="img/anuncios/anuncio-cerveja.jpg" alt="Anuncio Cerveja"></a>
-            </div> -->
         </aside>
-
-        <!-- <aside class="box-ad-video">
-            <div class="ad-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HReDVOeT5r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </aside> -->
 
         <footer class="footer">
             <div class="company-address">
