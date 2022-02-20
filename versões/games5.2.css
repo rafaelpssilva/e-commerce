@@ -39,16 +39,9 @@ body {
 .header {
     grid-area: header;
     background: #404040;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-sizing: border-box;
 }
 
-.header a {
-    color: #fff;
-    text-decoration: none;
-}
 
 .header-title {
     background: -webkit-linear-gradient(var(--cor3), var(--cor1));
@@ -65,31 +58,51 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header nav ul {
     display: flex;
 }
 
-.header li {
+.header nav li + li {
+    margin-left: 20px;
+}
+
+.header nav ul li {
     font-size: 1.2em;
-    letter-spacing: 0.8px;
-    padding: 10px;
+    letter-spacing: 1px;
     border-radius: 5px;
 }
 
-.header li + li  {
-    margin-left: 25px;
-}
-
 .header li:hover {
-    background: var(--cor3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 1.25em;
 }
 
-#menu {
-    display: none;
+.header nav ul a {
+    color: #fff;
+    text-decoration: none;
 }
+
+.button-mobile-menu {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.button-mobile-menu img {
+    width: 100%;
+    height: 100%;
+
+}
+
 
 /* HEADER_LEGEND */
 
@@ -604,6 +617,13 @@ body {
     display: block;
 }
 
+header nav ul {
+    display: none;
+}
+
+header nav ul li {
+    display: none;
+}
 
 /* MEDIA QUERY */
 
@@ -628,20 +648,6 @@ body {
 
     .header-legend li:nth-child(4) {
         display: block;
-    }
-
-    .header ul {
-        display: none;
-    }
-
-    #menu {
-        display: block;
-        width: 30px;
-        height: 30px;
-    }
-
-    #menu img {
-        width: 100%;
     }
 
     /* CONTENT */
@@ -1005,5 +1011,19 @@ body {
     .high-plane {
         width: 80%;
         border-radius: 5px;
+    }
+}
+
+
+
+/* NEW 6.0 */
+
+@media (max-width: 1000px) {
+    .ul-list {
+        display: none;
+    }
+
+    .button-mobile-menu {
+        display: block;
     }
 }

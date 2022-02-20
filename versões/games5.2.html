@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="games6.0.css">
-    <title>E-Commerce</title>
+    <link rel="stylesheet" href="games5.2.css">
+    <link rel="stylesheet" href="games5.2.2.css">
+    <title>5.2</title>
 </head>
 <body>
     <div class="structure">
@@ -14,25 +15,14 @@
                 <a href="#" class="header-title">
                     R4 ELETRO
                 </a>
-
-                <ul class="ul-list">
+                <ul class="nav-list" style="display: none;">
                     <li><a href="#">ofertas</a></li>
                     <li><a href="#">contato</a></li>
                     <li><a href="#">sobre nós</a></li>
                 </ul>
-
-                <div class="button-mobile-menu" onclick="displayMenu()">
+                <div class="button-mobile-menu" onclick="aparecerMenu()">
                     <img src="img/icones/menu-icon.png" alt="">
                 </div>
-
-                <ul class="ul-list-mobile display-none">
-                    <li><a href="#">ofertas</a></li>
-                    <li><a href="#">contato</a></li>
-                    <li><a href="#">sobre nós</a></li>
-                    <li><a href="#">ofertas</a></li>
-                    <li><a href="#">contato</a></li>
-                    <li><a href="#">sobre nós</a></li>
-                </ul>
             </nav>
         </header>
 
@@ -152,45 +142,47 @@
         </main>
 
         <aside class="subscription-packages">
-            <div class="middle-plane">
-                <h1>Plano Pro</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li>Fast Entrega</li>
-                    <li>Brindes a cada 4 mesês</li>
-                    <li>Descontos Exclusivos</li>
-                    <li>Troque pontos por Bonus</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
-            </div>
-    
-            <div class="high-plane">
-                <h1>Plano Master</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li><span>Descontos Exclusivos</span></li>
-                    <li><span>Entrega Fast</span></li>
-                    <li>Game Pass ou PSN incluso</li>
-                    <li>Brindes a cada 2 mês</li>
-                    <li>Pré Venda antes de todos</li>
-                    <li>Troque pontos por Bonus</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
-                <span class="recommended"><span>Recomendado</span></span>
-            </div>
+                <h1 class="signature-title">Confira nossos planos e ganhe beneficios exclusivos</h1>
+                <div class="middle-plane">
+                    <h1>Plano Pro</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li>Fast Entrega</li>
+                        <li>Brindes a cada 4 mesês</li>
+                        <li>Descontos Exclusivos</li>
+                        <li>Troque pontos por Bonus</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                </div>
+        
+                <div class="high-plane">
+                    <h1>Plano Master</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li><span>Descontos Exclusivos</span></li>
+                        <li><span>Entrega Fast</span></li>
+                        <li>Game Pass ou PSN incluso</li>
+                        <li>Brindes a cada 2 mês</li>
+                        <li>Pré Venda antes de todos</li>
+                        <li>Troque pontos por Bonus</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                    <span class="recommended"><span>Recomendado</span></span>
+                </div>
 
-            <div class="low-plane">
-                <h1>Plano Amador</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li><p>Fast Entrega</p></li>
-                    <li>Troque pontos por Bonus</li>
-                    <li>Brindes a cada 6 mêses</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
+                <div class="low-plane">
+                    <h1>Plano Amador</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li><p>Fast Entrega</p></li>
+                        <li>Troque pontos por Bonus</li>
+                        <li>Brindes a cada 6 mêses</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                </div>
             </div>
         </aside>
 
@@ -243,8 +235,7 @@
                 <p>Copyright &copy; 2022, ALL Rights Reserved</p>
             </div>
         </footer>
-
     </div>
-    <script src="e-commerce.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

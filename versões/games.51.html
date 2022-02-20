@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="games6.0.css">
-    <title>E-Commerce</title>
+    <link rel="stylesheet" href="games5.1.css">
+    <title>Refatorado</title>
 </head>
 <body>
     <div class="structure">
         <header class="header">
+            <a href="#" class="header-title">
+                R4 ELETRO
+            </a>
             <nav>
-                <a href="#" class="header-title">
-                    R4 ELETRO
-                </a>
-
-                <ul class="ul-list">
+                <ul>
                     <li><a href="#">ofertas</a></li>
                     <li><a href="#">contato</a></li>
                     <li><a href="#">sobre nós</a></li>
                 </ul>
-
-                <div class="button-mobile-menu" onclick="displayMenu()">
-                    <img src="img/icones/menu-icon.png" alt="">
-                </div>
-
-                <ul class="ul-list-mobile display-none">
-                    <li><a href="#">ofertas</a></li>
-                    <li><a href="#">contato</a></li>
-                    <li><a href="#">sobre nós</a></li>
-                    <li><a href="#">ofertas</a></li>
-                    <li><a href="#">contato</a></li>
-                    <li><a href="#">sobre nós</a></li>
-                </ul>
+                <a href="#" id="menu"><img src="img/icones/menu_icon_152806 (1).png" alt="menu"></a>
             </nav>
         </header>
 
@@ -68,13 +55,13 @@
             <!-- Consoles -->
 
             <div class="product">
-                <a href="#"><img src="img/xbox/xbox-series-x-vertical.png" alt="Xbox Series X Preto" style="padding: 10px;"></a>
+                <a href="#"><img src="img/xbox/xbox-series-x-vertical.png" alt="Xbox Series X Preto"></a>
                 <span class="product-name">Xbox Series X - Preto</span>
                 <span class="price-without-discount">R$ 8190</span>
                 <span class="discount-price">R$ 7.499,99</span>
             </div>
             <div class="product">
-                <a href="#"><img src="img/xbox/xbox-series-s-vertical.png" alt="Xbox Series S Branco" style="padding: 15px;"></a>
+                <a href="#"><img src="img/xbox/xbox-series-s-vertical.png" alt="Xbox Series S Branco"></a>
                 <span class="product-name">Xbox Series S 512GB - Branco</span>
                 <span class="discount-price">R$ 2.799,90</span>
             </div>
@@ -152,45 +139,47 @@
         </main>
 
         <aside class="subscription-packages">
-            <div class="middle-plane">
-                <h1>Plano Pro</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li>Fast Entrega</li>
-                    <li>Brindes a cada 4 mesês</li>
-                    <li>Descontos Exclusivos</li>
-                    <li>Troque pontos por Bonus</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
-            </div>
-    
-            <div class="high-plane">
-                <h1>Plano Master</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li><span>Descontos Exclusivos</span></li>
-                    <li><span>Entrega Fast</span></li>
-                    <li>Game Pass ou PSN incluso</li>
-                    <li>Brindes a cada 2 mês</li>
-                    <li>Pré Venda antes de todos</li>
-                    <li>Troque pontos por Bonus</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
-                <span class="recommended"><span>Recomendado</span></span>
-            </div>
+                <h1 class="signature-title">Confira nossos planos e ganhe beneficios exclusivos</h1>
+                <div class="middle-plane">
+                    <h1>Plano Pro</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li>Fast Entrega</li>
+                        <li>Brindes a cada 4 mesês</li>
+                        <li>Descontos Exclusivos</li>
+                        <li>Troque pontos por Bonus</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                </div>
+        
+                <div class="high-plane">
+                    <h1>Plano Master</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li><span>Descontos Exclusivos</span></li>
+                        <li><span>Entrega Fast</span></li>
+                        <li>Game Pass ou PSN incluso</li>
+                        <li>Brindes a cada 2 mês</li>
+                        <li>Pré Venda antes de todos</li>
+                        <li>Troque pontos por Bonus</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                    <span class="recommended"><span>Recomendado</span></span>
+                </div>
 
-            <div class="low-plane">
-                <h1>Plano Amador</h1>
-                <span class="price">R$ 99,34 / mês</span>
-                <hr>
-                <ul>
-                    <li><p>Fast Entrega</p></li>
-                    <li>Troque pontos por Bonus</li>
-                    <li>Brindes a cada 6 mêses</li>
-                </ul>
-                <a href="#" class="btn">assinar</a>
+                <div class="low-plane">
+                    <h1>Plano Amador</h1>
+                    <span class="price">R$ 99,34 / mês</span>
+                    <hr>
+                    <ul>
+                        <li><p>Fast Entrega</p></li>
+                        <li>Troque pontos por Bonus</li>
+                        <li>Brindes a cada 6 mêses</li>
+                    </ul>
+                    <a href="#" class="btn">assinar</a>
+                </div>
             </div>
         </aside>
 
@@ -243,8 +232,6 @@
                 <p>Copyright &copy; 2022, ALL Rights Reserved</p>
             </div>
         </footer>
-
     </div>
-    <script src="e-commerce.js"></script>
 </body>
 </html>
