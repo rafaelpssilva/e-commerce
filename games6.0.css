@@ -1059,22 +1059,22 @@ body {
     }
 
     .product-name {
-        font-size: 6px;
+        font-size: 4px;
         width: 80px;
-        left: 9.8%;
+        left: 6.4%;
         top: 63%;
     }
 
     .price-without-discount {
-        font-size: 9px;
-        left: 9.8%;
-        top: 83%;
+        font-size: 6px;
+        left: 6.4%;
+        top: 85%;
     }
 
     .discount-price {
-        font-size: 10px;
+        font-size: 7px;
         top: 89%;
-        left: 9.8%;
+        left: 6.4%;
     }
 
 }
