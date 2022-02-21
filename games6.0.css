@@ -1043,35 +1043,38 @@ body {
      .content {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 10px;
-        gap: 20px;
+        gap: 15px;
     }
 
     .product {
         width: 100%;
         height: 150px;
-        padding: 10px 15px;
+        padding: 10px;
         margin: 0;
     }
 
     .product img {
-        height: 67%;
-        padding: 5px;
+        height: 63%;
+        padding: 3px;
     }
 
     .product-name {
-        font-size: 8px;
-        width: 85px;
-        top: 66%;
+        font-size: 6px;
+        width: 80px;
+        left: 9.8%;
+        top: 63%;
     }
 
     .price-without-discount {
         font-size: 9px;
+        left: 9.8%;
         top: 83%;
     }
 
     .discount-price {
         font-size: 10px;
         top: 89%;
+        left: 9.8%;
     }
 
 }
