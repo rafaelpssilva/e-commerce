@@ -996,7 +996,7 @@ body {
     }
 
     .header-title {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .button-mobile-menu {
@@ -1013,5 +1013,28 @@ body {
     .header-legend ul li {
         font-size: 10px;
         letter-spacing: 0.8px;
+    }
+
+    /* SIDENAV */
+
+    .sidenav {
+        padding: 0px;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    }
+    
+    .sidenav ul {
+        height: 100%;
+        
+        padding: 20px 5px;
+        margin-top: 5px;
+    }
+
+    .sidenav li + li {
+        margin-top: 0px;
+    }
+
+    .sidenav li {
+        padding: 20px;
+
     }
 }
