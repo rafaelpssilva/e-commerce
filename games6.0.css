@@ -1058,18 +1058,18 @@ body {
     }
 
     .product-name {
-        font-size: 12px;
+        font-size: 6px;
         width:115px;
         top: 52%;
     }
 
     .price-without-discount {
-        font-size: 13px;
+        font-size: 7px;
         top: 80%;
     }
 
     .discount-price {
-        font-size: 15px;
+        font-size: 10px;
     }
 
 }
