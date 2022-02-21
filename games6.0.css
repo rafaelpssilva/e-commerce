@@ -673,9 +673,11 @@ body {
     .sidenav li {
         min-width: 110px;
         max-width: 110px;
-        margin-left: 25px;
         display: block;
+        margin-left: 12px;
+        margin-right: 12px;
     }
+
 
     /* .sidenav li:hover {
         border: 3px solid black;
@@ -1029,13 +1031,16 @@ body {
         margin-top: 5px;
     }
 
-    .sidenav li + li {
-        margin-top: 0px;
-    }
-
     .sidenav li {
         padding: 10px;
         min-width: 80px;
         max-width: 80px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
+
+    .sidenav li + li {
+        margin-top: 0px;
+    }
+
 }
