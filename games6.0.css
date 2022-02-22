@@ -1029,8 +1029,8 @@ body {
     .sidenav ul {
         height: 100%;
         
-        padding: 10px 0px;
-        margin-top: 2px;
+        padding: 8px 0px;
+        margin-top: 0px;
         margin-bottom: 5px;
     }
 
@@ -1069,20 +1069,77 @@ body {
     .product-name {
         font-size: 6px;
         width: 90px;
-        left: 7.5%;
+        left: 8%;
         top: 63%;
     }
 
     .price-without-discount {
         font-size: 6px;
-        left: 7.5%;
+        left: 8%;
         top: 84%;
     }
 
     .discount-price {
         font-size: 8px;
         top: 88%;
-        left: 7.5%;
+        left: 8%;
     }
 
+     /* SUBSCRIPTION PACKAGES */
+
+     .subscription-packages {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .low-plane {
+        width: 45%;
+        height: 320px;
+        margin: 0px 15px 0px 0px;
+        order: 1;
+    }
+
+    .middle-plane {
+        width: 45%;
+        height: 320px;
+        margin-right: 0;
+        margin: 0px 0px 0px 15px;
+        order: 2;
+    }
+
+    .high-plane {
+        width: 70%;
+        margin: 30px 0px 0px 0px;
+        order: 3;
+    }
+
+    .low-plane h1,
+    .middle-plane h1, 
+    .high-plane h1 {
+        font-size: 1.3em;
+    }
+
+    .low-plane .price,
+    .middle-plane .price, 
+    .high-plane .price {
+        font-size: 1em;
+    }
+
+    .low-plane li,
+    .middle-plane li, 
+    .high-plane li {
+        font-size: 12px;
+    }
+
+    .recommended {
+        width: 100%;
+        padding: 3px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        text-indent: 15px;
+        left: 0px;
+        right: 0px;
+    }
 }
