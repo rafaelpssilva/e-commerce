@@ -1023,6 +1023,7 @@ body {
     .sidenav {
         padding: 0px;
         box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+        margin-bottom: 0px;
     }
     
     .sidenav ul {
@@ -1030,7 +1031,7 @@ body {
         
         padding: 10px 0px;
         margin-top: 2px;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
     }
 
     .sidenav li {
@@ -1066,20 +1067,20 @@ body {
     }
 
     .product-name {
-        font-size: 8px;
-        width: 80px;
+        font-size: 6px;
+        width: 90px;
         left: 7.5%;
         top: 63%;
     }
 
     .price-without-discount {
-        font-size: 8px;
+        font-size: 6px;
         left: 7.5%;
         top: 84%;
     }
 
     .discount-price {
-        font-size: 10px;
+        font-size: 8px;
         top: 88%;
         left: 7.5%;
     }
