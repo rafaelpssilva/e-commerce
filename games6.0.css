@@ -1065,6 +1065,7 @@ body {
 
     .product-name {
         font-size: 7px;
+        letter-spacing: 0.7px;
         width: 85px;
         left: 9.7%;
         top: 63%;
