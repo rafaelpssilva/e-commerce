@@ -99,7 +99,7 @@ body {
 
 .ul-list-mobile {
     background: #404040;
-    width: 50vw;
+    width: 65vw;
     height: 92vh;
     position: absolute;
     top: 60px;
@@ -1044,6 +1044,11 @@ body {
         margin-top: 0px;
     }
 
+    .sidenav li:hover {
+        border-width: 4px;
+    }
+    
+
      /* CONTENT */
 
      .content {
@@ -1067,20 +1072,20 @@ body {
     .product-name {
         font-size: 7px;
         width: 85px;
-        left: 8.9%;
+        left: 9.7%;
         top: 63%;
     }
 
     .price-without-discount {
         font-size: 6px;
-        left: 8.9%;
+        left: 9.7%;
         top: 84%;
     }
 
     .discount-price {
         font-size: 10px;
         top: 88%;
-        left: 8.9%;
+        left: 9.7%;
     }
 
      /* SUBSCRIPTION PACKAGES */
@@ -1126,9 +1131,12 @@ body {
     }
 
     .low-plane li,
-    .middle-plane li, 
-    .high-plane li {
+    .middle-plane li {
         font-size: 7px;
+    }
+
+    .high-plane li {
+        font-size: 8px;
     }
 
     .recommended {
@@ -1161,7 +1169,11 @@ body {
         border: 0.8px solid rgba(0, 0, 0, .7);
     }
 
-    
+    .low-plane
+    .middle-plane
+    .high-plane {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
 
     .company-address div img {
         width: 25px;
@@ -1173,16 +1185,23 @@ body {
 
     .support {
         grid-area: support;
-        width: 350px;
+        width: 100%;
         margin: auto;
     }
 
     .support h2 {
         font-size: 1.4em;
+        text-align: center;
     }
 
     .support p {
         font-size: 13px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .support ul {
+        justify-content: space-evenly;
     }
 
     .support li img {
