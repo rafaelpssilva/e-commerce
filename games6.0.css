@@ -638,8 +638,6 @@ body {
         padding: 0px;
         position: relative;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
     }
 
     @keyframes seta {
@@ -1020,10 +1018,8 @@ body {
     
     .sidenav ul {
         height: 100%;
-        
-        padding: 8px 0px;
+        padding: 8px 0px 9px 0px;
         margin-top: 0px;
-        margin-bottom: 5px;
     }
 
     .sidenav li {
